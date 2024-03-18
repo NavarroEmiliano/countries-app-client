@@ -14,8 +14,7 @@ import updateActivity from './updateActivityDb'
 import validation from './validation'
 import ErrorDiv from '../errordiv/ErrorDiv'
 import showModal from './showModal'
-import Modal from '../modal/modal'
-
+import Modal from '../modal/Modal'
 const ActivityForm = () => {
   const dispatch = useDispatch()
 
