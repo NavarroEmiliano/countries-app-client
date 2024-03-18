@@ -9,7 +9,7 @@ const Detail = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
 
   const params = useParams()
-  const RUTA = 'http://localhost:3001'
+  const RUTA = process.env.BASE_URL
   useEffect(() => {
     const findCountry = async () => {
       try {

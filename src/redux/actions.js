@@ -10,7 +10,7 @@ import {
 } from './action-type'
 import axios from 'axios'
 
-const RUTA = 'http://localhost:3001'
+const RUTA = process.env.BASE_URL
 
 const endpoint = `${RUTA}/countries`
 
