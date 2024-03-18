@@ -121,7 +121,7 @@ const ActivityForm = () => {
   return (
     <div className={styles.container}>
       <div className={styles.form__middle}>
-        <form
+{/*         <form
           onSubmit={editIsTrue ? handleUpdateSubmit : handlePostSubmit}
           className={styles.form__container}
         >
@@ -214,7 +214,7 @@ const ActivityForm = () => {
           >
             {editIsTrue ? 'Actualizar' : 'Crear'}
           </button>
-        </form>
+        </form> */}
         {editIsTrue && (
           <button onClick={handleEditOption} className={styles.create__btn}>
             Volver a crear actividad
