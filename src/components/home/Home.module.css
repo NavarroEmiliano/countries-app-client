@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  margin: 2px solid black;
+  background-image: url(../../assets/Background.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.select_div {
+  display: flex;
+}
