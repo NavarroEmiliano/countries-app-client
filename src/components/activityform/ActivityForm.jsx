@@ -17,7 +17,7 @@ import Modal from '../modal/modal'
 import showModal from './showModal'
 
 const ActivityForm = () => {
-  const dispatch = useDispatch()
+/*   const dispatch = useDispatch()
 
   const [activity, setActivity] = useState({
     id: null,
@@ -116,12 +116,14 @@ const ActivityForm = () => {
     dispatch(getCountriesFromInputForm(activity.countryFilter))
     setErrors(validation(activity, allActivities, editIsTrue))
     dispatch(getAllActivities())
-  }, [activity, modal])
-
+  }, [activity, modal]) */
   return (
+    <div>Holis</div>
+  )
+  /* return (
     <div className={styles.container}>
       <div className={styles.form__middle}>
-{/*         <form
+        <form
           onSubmit={editIsTrue ? handleUpdateSubmit : handlePostSubmit}
           className={styles.form__container}
         >
@@ -214,7 +216,7 @@ const ActivityForm = () => {
           >
             {editIsTrue ? 'Actualizar' : 'Crear'}
           </button>
-        </form> */}
+        </form>
         {editIsTrue && (
           <button onClick={handleEditOption} className={styles.create__btn}>
             Volver a crear actividad
@@ -240,7 +242,7 @@ const ActivityForm = () => {
       </div>
       {modal.show && <Modal message={modal.message} />}
     </div>
-  )
+  ) */
 }
 
 export default ActivityForm
