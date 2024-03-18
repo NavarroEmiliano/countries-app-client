@@ -14,7 +14,8 @@ import updateActivity from './updateActivityDb'
 import validation from './validation'
 import ErrorDiv from '../errordiv/ErrorDiv'
 import showModal from './showModal'
-import Modal from '../modal/Modal'
+import ModalMessage from '../modalmessage/ModalMessage'
+
 const ActivityForm = () => {
   const dispatch = useDispatch()
 
@@ -237,8 +238,9 @@ const ActivityForm = () => {
           <h3>No hay actividades</h3>
         )}
       </div>
-
-      {modal.show && <Modal message={modal.message} />}
+{ 
+      modal.show && <ModalMessage message={modal.message}/>}
+      
     </div>
   )
 }
