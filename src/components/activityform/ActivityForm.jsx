@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from 'react-redux'
+/* import { useSelector, useDispatch } from 'react-redux'
 import styles from './ActivityForm.module.css'
 import { useState, useEffect } from 'react'
 import {
@@ -15,7 +15,7 @@ import validation from './validation'
 import ErrorDiv from '../errordiv/ErrorDiv'
 import Modal from '../modal/modal'
 import showModal from './showModal'
-
+ */
 const ActivityForm = () => {
 /*   const dispatch = useDispatch()
 

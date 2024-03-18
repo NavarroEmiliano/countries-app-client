@@ -4,8 +4,8 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import LandingPage from './components/landingpage/LandingPage'
 import Home from './components/home/Home'
 import Detail from './components/detail/Detail'
-import ActivityForm from './components/activityform/ActivityForm'
 import Nav from './components/nav/Nav'
+import ActivityForm from './components/activityform/ActivityForm'
 
 const App = () => {
   const { pathname } = useLocation()
