@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   background-color: #3d5a80;
+  justify-content: space-around;
 }
 
 .coat__div {
@@ -35,6 +36,11 @@
   justify-content: center;
   align-items: center;
 }
+
+.detail__div h2 {
+  text-align: center;
+  border-bottom: 1px solid rgba(22, 13, 140, 0.893);
+}
 .detail {
   width: 60%;
   background-color: #0cf5755a;
@@ -62,7 +68,6 @@
 
 .activity {
   width: 100%;
-  color: white;
   border: 2px solid black;
   font-size: 0.8rem;
   margin-bottom: 10px;

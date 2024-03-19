@@ -10,7 +10,7 @@ import {
 } from './action-type'
 import axios from 'axios'
 
-const RUTA = process.env.BASE_URL
+const RUTA = import.meta.env.VITE_BASE_URL
 
 const endpoint = `${RUTA}/countries`
 

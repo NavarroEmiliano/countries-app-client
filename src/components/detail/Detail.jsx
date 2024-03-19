@@ -9,7 +9,7 @@ const Detail = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
 
   const params = useParams()
-  const RUTA = process.env.BASE_URL
+  const RUTA = import.meta.env.VITE_BASE_URL
   useEffect(() => {
     const findCountry = async () => {
       try {
@@ -25,7 +25,6 @@ const Detail = () => {
     findCountry()
   }, [])
 
-  console.log(country.Activities)
 
   return (
     <div className={styles.container}>
